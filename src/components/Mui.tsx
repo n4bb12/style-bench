@@ -6,17 +6,17 @@ export const Mui: VFC<{ count: number }> = ({ count }) => {
     <Box
       sx={{
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(10rem, 1fr))",
-        gridGap: "1rem",
-        p: 2,
+        gridTemplateColumns: "repeat(auto-fit, minmax(2rem, 1fr))",
+        gridGap: "0.5rem",
+        p: 1,
       }}
     >
       {Array.from(Array(count).fill(null)).map((value, index) => (
         <Box
           key={index}
           sx={{
-            px: 2,
-            py: 1,
+            px: 1,
+            py: 0.5,
             color: "white",
             bgcolor: "primary.main",
             borderRadius: "6px",

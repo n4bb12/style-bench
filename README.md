@@ -1,8 +1,9 @@
-## ⏱ Benchmark App for MUI Style Options Compared to Tailwind
+## ⏱ Test pages for comparing styling options
 
-There is already a [Browser benchmark](https://github.com/mui/material-ui/tree/master/benchmark/browser) by the MUI team.
+The need for this project arose from wanting to more intuitively understand the performance implications of using the `sx` prop with MUI stystem.
+There is already a much better [Browser benchmark](https://github.com/mui/material-ui/tree/master/benchmark/browser) by the MUI team that compares MUI styling options.
 
-The purpose of this repository is to serve as a playground project for getting a personal gut feeling for when things start to become slow with MUI and how those scenarios would compare if a different styling method were used.
+The purpose of this repository is to serve as a personal playground project for learning when things start to become slow with MUI and how those scenarios compare if a different styling method were used.
 
 ## Getting Started
 
